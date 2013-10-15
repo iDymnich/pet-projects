@@ -25,6 +25,9 @@
         <module name="download_manager" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="download_manager" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 

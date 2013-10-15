@@ -2,29 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84567155-9b9e-4c83-883c-556121e87529" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/Download.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/implementation/DownloadManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/DownloadManagerService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/DownloadManagerServiceApi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/idymnich/petprojects/downloadmanager/DownloadManagerServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/download_manager.iml" afterPath="$PROJECT_DIR$/download_manager.iml" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\src\main\java\com\idymnich\petprojects\downloadmanager\common\helpers\exceptions\DownloadManagerException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/common/helpers/exceptions/DownloadManagerException.java" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\src\main\java\com\idymnich\petprojects\downloadmanager\common\utils\DownloadManagerUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/common/utils/DownloadManagerUtils.java" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\src\main\java\com\idymnich\petprojects\downloadmanager\processors\DownloadProcessor.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\target\classes\com\idymnich\petprojects\downloadmanager\DownloadManagerService.class" afterPath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\target\classes\com\idymnich\petprojects\downloadmanager\DownloadManagerService.class" />
+      <change type="MODIFICATION" beforePath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\target\test-classes\com\idymnich\petprojects\downloadmanager\DownloadManagerServiceTest.class" afterPath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\target\test-classes\com\idymnich\petprojects\downloadmanager\DownloadManagerServiceTest.class" />
+      <change type="MODIFICATION" beforePath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\src\main\java\com\idymnich\petprojects\downloadmanager\api\Download.java" afterPath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\src\main\java\com\idymnich\petprojects\downloadmanager\api\Download.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/Download.java" afterPath="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/Download.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\src\main\java\com\idymnich\petprojects\downloadmanager\api\implementation\DownloadManager.java" afterPath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\src\main\java\com\idymnich\petprojects\downloadmanager\api\implementation\DownloadManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/implementation/DownloadManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/implementation/DownloadManager.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\src\main\java\com\idymnich\petprojects\downloadmanager\DownloadManagerService.java" afterPath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\src\main\java\com\idymnich\petprojects\downloadmanager\DownloadManagerService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/DownloadManagerService.java" afterPath="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/DownloadManagerService.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\src\test\java\com\idymnich\petprojects\downloadmanager\DownloadManagerServiceTest.java" afterPath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\src\test\java\com\idymnich\petprojects\downloadmanager\DownloadManagerServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/idymnich/petprojects/downloadmanager/DownloadManagerServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/idymnich/petprojects/downloadmanager/DownloadManagerServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/processors/DownloadProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/processors/DownloadProcessor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\.idea\misc.xml" afterPath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\.idea\misc.xml" />
+      <change type="MODIFICATION" beforePath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\pom.xml" afterPath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\.idea\vcs.xml" afterPath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\.idea\vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\.idea\workspace.xml" afterPath="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\download_manager\.idea\workspace.xml" />
     </list>
     <ignored path="download_manager.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/pom.xml" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381678611247" ignored="false" />
-    <file path="/Dummy.txt" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381777381354" ignored="false" />
+    <file path="/pom.xml" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381872518055" ignored="false" />
+    <file path="/Dummy.txt" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381870002701" ignored="false" />
     <file path="/DownloadManagerServiceApi.java" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381784695695" ignored="false" />
-    <file path="/DownloadManager.java" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381780231670" ignored="false" />
-    <file path="/DownloadManagerService.java" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381784536760" ignored="false" />
+    <file path="/DownloadManager.java" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381870111345" ignored="false" />
+    <file path="/DownloadManagerService.java" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381871828625" ignored="false" />
     <file path="/spring-config.xml" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381781613028" ignored="false" />
     <file path="/a.java" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381781187555" ignored="false" />
     <file path="/DownloadManagerApi.java" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381781362069" ignored="false" />
-    <file path="/Download.java" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381782276347" ignored="false" />
-    <file path="/DownloadManagerServiceTest.java" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381785887738" ignored="false" />
+    <file path="/Download.java" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381871876814" ignored="false" />
+    <file path="/DownloadManagerServiceTest.java" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381868034024" ignored="false" />
     <file path="/downloadmanager-application-context.xml" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381783860432" ignored="false" />
+    <file path="/DownloadProcessor.java" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381872609539" ignored="false" />
+    <file path="/DownloadManagerUtils.java" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381868649019" ignored="false" />
+    <file path="/DownloadManagerException.java" changelist="84567155-9b9e-4c83-883c-556121e87529" time="1381871277628" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,62 +100,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="FrameworkMethod.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="8" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DownloadManagerServiceApi.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/DownloadManagerServiceApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="29" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DownloadManagerServiceTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/idymnich/petprojects/downloadmanager/DownloadManagerServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="34" selection-start="1055" selection-end="1055" vertical-scroll-proportion="-0.11111111">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#899#917#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_02/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="199" column="0" selection-start="9025" selection-end="9025" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DownloadManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/implementation/DownloadManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="54" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DownloadManagerService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/DownloadManagerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="47" selection-start="540" selection-end="553" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#567#585#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -146,7 +112,27 @@
       <file leaf-file-name="Download.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/Download.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="18" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DownloadProcessor.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/processors/DownloadProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="140" column="22" selection-start="4802" selection-end="4802" vertical-scroll-proportion="3.0834813">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="21" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -170,20 +156,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/idymnich/mytestprojects/downloadmanager/api/implementation/DownloadManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/idymnich/mytestprojects/downloadmanager/api/implementation/DownloadManagerApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/idymnich/mytestprojects/downloadmanager/DownloadManagerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/idymnich/mytestprojects/downloadmanager/api/DownloadManagerServiceApi.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/api/a.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/a.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/implementation/DownloadManagerApi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/Download.java" />
         <option value="$PROJECT_DIR$/src/main/resources/downloadmanager-application-context.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/DownloadManagerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/DownloadManagerServiceApi.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/idymnich/petprojects/downloadmanager/DownloadManagerServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/common/utils/DownloadManagerUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/implementation/DownloadManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/common/helpers/exceptions/DownloadManagerException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/DownloadManagerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/Download.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/processors/DownloadProcessor.java" />
       </list>
     </option>
   </component>
@@ -229,7 +217,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -244,7 +232,52 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="download_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="download_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="download_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="download_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.idymnich.mytestprojects.downloadmanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="download_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="download_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.idymnich.mytestprojects.downloadmanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -315,54 +348,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="download_manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="download_manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="download_manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="download_manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com.idymnich.mytestprojects.downloadmanager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="download_manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="download_manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com.idymnich.mytestprojects.downloadmanager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+              <option name="myItemId" value="downloadmanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,16 +396,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Игорь\src\workspace\GitProjects\pet-projects\download_manager\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DownloadManagerServiceTest">
+  <component name="RunManager" selected="JUnit.DownloadManagerServiceTest.shouldPutDownloadInPollWhenAddDownloadAction">
     <configuration default="false" name="DownloadManagerServiceTest.shouldReturnDownloadInAddDownloadAction" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -569,8 +587,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DownloadManagerServiceTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DownloadManagerServiceTest.shouldPutDownloadInPollWhenAddDownloadAction" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DownloadManagerServiceTest.shouldPutDownloadInPollWhenAddDownloadAction" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DownloadManagerServiceTest" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.DownloadManagerServiceTest.shouldReturnDownloadInAddDownloadAction" />
       </list>
     </recent_temporary>
@@ -598,31 +616,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39863715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5007576" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34015152" sideWeight="0.67232597" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26818183" sideWeight="0.6013629" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26818183" sideWeight="0.67291313" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.4939394" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33049405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -687,84 +705,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="28" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="39" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="39" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.2.4.RELEASE/spring-context-3.2.4.RELEASE.jar!/org/springframework/stereotype/Service.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="401" selection-end="401" vertical-scroll-proportion="0.2959381">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/Download.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_02/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="19" selection-start="3673" selection-end="3673" vertical-scroll-proportion="-1.2354949">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/implementation/DownloadManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="54" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/DownloadManagerServiceApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="29" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/DownloadManagerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="540" selection-end="553" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#567#585#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_02/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="313" column="13" selection-start="11758" selection-end="11758" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="313" column="13" selection-start="11758" selection-end="11758" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_02/src.zip!/java/util/Map.java">
@@ -774,12 +717,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-all/1.8.4/mockito-all-1.8.4.jar!/org/mockito/Matchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="154" selection-end="154" vertical-scroll-proportion="0.3024911" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-all/1.8.4/mockito-all-1.8.4.jar!/org/mockito/Mockito.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="25" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.36298934" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_02/src.zip!/java/io/RandomAccessFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="13" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/DownloadManagerServiceApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="113" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/common/utils/DownloadManagerUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="31" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/idymnich/petprojects/downloadmanager/DownloadManagerServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="34" selection-start="1055" selection-end="1055" vertical-scroll-proportion="-0.11111111">
+        <state line="33" column="85" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/common/helpers/exceptions/DownloadManagerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="18" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/DownloadManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="56" selection-start="1919" selection-end="1919" vertical-scroll-proportion="0.46678966">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/implementation/DownloadManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="19" selection-start="355" selection-end="355" vertical-scroll-proportion="0.34501845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="21" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/api/Download.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idymnich/petprojects/downloadmanager/processors/DownloadProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="22" selection-start="4802" selection-end="4802" vertical-scroll-proportion="3.0834813">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#899#917#0" expanded="true" />
           </folding>
         </state>
       </provider>

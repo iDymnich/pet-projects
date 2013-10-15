@@ -1,0 +1,8 @@
+com\idymnich\petprojects\downloadmanager\common\utils\DownloadManagerUtils.class
+com\idymnich\petprojects\downloadmanager\DownloadManagerService.class
+com\idymnich\petprojects\downloadmanager\processors\DownloadProcessor.class
+com\idymnich\petprojects\downloadmanager\api\Download.class
+com\idymnich\petprojects\downloadmanager\api\implementation\DownloadManager$DownloadStatus.class
+com\idymnich\petprojects\downloadmanager\api\DownloadManagerServiceApi.class
+com\idymnich\petprojects\downloadmanager\api\implementation\DownloadManager.class
+com\idymnich\petprojects\downloadmanager\common\helpers\exceptions\DownloadManagerException.class

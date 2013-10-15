@@ -2,6 +2,8 @@ package com.idymnich.petprojects.downloadmanager;
 
 import com.idymnich.petprojects.downloadmanager.api.Download;
 import com.idymnich.petprojects.downloadmanager.api.implementation.DownloadManager;
+import com.idymnich.petprojects.downloadmanager.common.helpers.exceptions.DownloadManagerException;
+import com.idymnich.petprojects.downloadmanager.processors.DownloadProcessor;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -20,6 +22,9 @@ public class DownloadManagerService extends DownloadManager {
      * The pool of downloads *
      */
     private Map<String, Download> downloadsPool = new HashMap<String, Download>();
+
+    private DownloadManagerService() {
+    }
 
     /**
      * This method sets Download manager status.
@@ -52,7 +57,15 @@ public class DownloadManagerService extends DownloadManager {
      */
     @Override
     public Download addDownload(String uri, String directoryPath) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        Download download = new DownloadProcessor(directoryPath, uri);
+        downloadsPool.put(uri, download);
+        try {
+            download.onStart();
+        } catch (DownloadManagerException e) {
+
+        }
+
+        return download;
     }
 
     /**

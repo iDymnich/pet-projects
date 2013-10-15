@@ -6,16 +6,16 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
+import org.mockito.Matchers;
+import org.mockito.Mock;
 import org.mockito.Spy;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import java.util.HashMap;
 import java.util.Map;
 
-import static org.junit.Assert.assertTrue;
-import static org.mockito.Matchers.anyObject;
+import static org.junit.Assert.assertNotNull;
 import static org.mockito.Matchers.anyString;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.verify;
 
 /**
  * Created in 14.10.13, 23:26
@@ -27,12 +27,11 @@ public class DownloadManagerServiceTest {
     @Spy
     @InjectMocks
     private DownloadManagerServiceApi service = DownloadManagerService.getInstance();
-    private Map<String, Download> pool = new HashMap<String, Download>();
+    @Mock
+    private Map<String, Download> downloadsPool;
 
     @Before
     public void setUp() {
-        when(service.addDownload(anyString(), anyString())).
-                thenReturn(pool.put(anyString(), ((Download) anyObject())));
     }
 
     @Test
@@ -40,10 +39,14 @@ public class DownloadManagerServiceTest {
         String uri = "test";
         String directory = "test";
         service.addDownload(uri, directory);
-        assertTrue(pool.containsKey(uri));
+        verify(downloadsPool).put(anyString(), Matchers.<Download>anyObject());
     }
 
     @Test
     public void shouldReturnDownloadInAddDownloadAction() {
+        String uri = "test";
+        String directory = "test";
+        Download download = service.addDownload(uri, directory);
+        assertNotNull(download);
     }
 }

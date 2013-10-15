@@ -7,8 +7,9 @@ import com.idymnich.petprojects.downloadmanager.api.DownloadManagerServiceApi;
  * Author: Игорь
  */
 public abstract class DownloadManager implements DownloadManagerServiceApi {
-    protected enum DownloadStatus {
+    public enum DownloadStatus {
         DOWNLOADING,
+        DOWNLOADED,
         PAUSE,
         STOP;
     }
